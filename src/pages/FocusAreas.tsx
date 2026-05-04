@@ -110,15 +110,15 @@ export default function FocusAreas() {
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '4rem' }}>
             {sectors.map((s, i) => (
-              <div key={s.name} className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
-                <div style={{ order: i % 2 === 0 ? 1 : 2 }}>
+              <div key={s.name} className={`reveal sector-grid ${i % 2 === 0 ? 'sector-grid--normal' : 'sector-grid--reverse'}`}>
+                <div className="sector-content">
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
                     <div className="icon-box" style={{ marginBottom: 0 }}><s.icon size={22} /></div>
                     <span className="sector-tag">{s.tag}</span>
                   </div>
                   <h3 style={{ color: '#0D1B2A', marginBottom: '1rem' }}>{s.name}</h3>
                   <p style={{ marginBottom: '1.6rem', color: '#374151' }}>{s.desc}</p>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.6rem' }}>
+                  <div className="sector-focus-grid">
                     {s.focus.map(f => (
                       <div key={f} style={{ background: '#FAF8F3', border: '1px solid #E8E4DC', borderRadius: '4px', padding: '0.55rem 0.9rem', fontSize: '0.8rem', fontWeight: 600, color: '#374151', fontFamily: 'DM Sans,sans-serif' }}>
                         {f}
@@ -126,7 +126,7 @@ export default function FocusAreas() {
                     ))}
                   </div>
                 </div>
-                <div style={{ order: i % 2 === 0 ? 2 : 1 }}>
+                <div className="sector-image">
                   <img src={s.img} alt={s.name} style={{ width: '100%', height: '380px', objectFit: 'cover', borderRadius: '6px', display: 'block' }} />
                 </div>
               </div>

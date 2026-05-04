@@ -128,14 +128,7 @@ export default function About() {
       {/* MISSION & VISION */}
       <section className="section section--ivory">
         <div className="container">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "2rem",
-            }}
-            className="reveal"
-          >
+          <div className="reveal mission-vision-grid">
             {[
               {
                 label: "Our Mission",
@@ -150,6 +143,7 @@ export default function About() {
             ].map((item) => (
               <div
                 key={item.label}
+                className="mission-vision-card"
                 style={{
                   background: "#fff",
                   border: "1px solid #E8E4DC",

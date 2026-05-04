@@ -76,6 +76,9 @@ h6 {
 h1 {
   font-size: clamp(2.4rem, 5.5vw, 5rem);
   letter-spacing: -0.02em;
+  @media (max-width: 768px) {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
 }
 h2 {
   font-size: clamp(2rem, 3.5vw, 3.2rem);
@@ -298,6 +301,9 @@ p {
     letter-spacing: -0.02em;
     max-width: 900px;
     margin-bottom: 1.6rem;
+    @media (max-width: 768px) {
+      font-size: clamp(2.2rem, 9vw, 3.5rem);
+    }
     text-align: center;
   }
   &__para {
@@ -474,6 +480,14 @@ p {
     gap: 1.2rem;
     justify-content: center;
     flex-wrap: wrap;
+    @media (max-width: 480px) {
+      flex-direction: column;
+      align-items: center;
+      .btn {
+        width: 100%;
+        max-width: 280px;
+      }
+    }
   }
 }
 
@@ -720,4 +734,150 @@ main {
   object-fit: cover;
   position: absolute;
   inset: 0;
+}
+
+// Mobile responsiveness fixes
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.mission-vision-card {
+  @media (max-width: 768px) {
+    padding: 2rem 1.5rem;
+  }
+}
+
+.sector-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.sector-grid--reverse {
+  .sector-content { order: 2; }
+  .sector-image { order: 1; }
+  @media (max-width: 768px) {
+    .sector-content { order: 1; }
+    .sector-image { order: 2; }
+  }
+}
+
+.sector-focus-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 5rem;
+  align-items: start;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+.contact-form-wrapper {
+  background: #FAF8F3;
+  border: 1px solid #E8E4DC;
+  border-radius: 8px;
+  padding: clamp(2rem, 4vw, 3.5rem);
+  @media (max-width: 768px) {
+    padding: 2rem;
+  }
+}
+
+.contact-heading {
+  font-size: 2rem;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.contact-map {
+  height: 380px;
+  background: #F5F6F8;
+  border: 1px solid #E8E4DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  @media (max-width: 768px) {
+    height: 280px;
+  }
+}
+
+.home-values-grid {
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.venture-card {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #E8E4DC;
+  border-radius: 8px;
+  overflow: hidden;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+.venture-card--reverse {
+  grid-template-columns: 1fr 1.3fr;
+  .venture-content { order: 2; }
+  .venture-image { order: 1; }
+  background: #FAF8F3;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    .venture-content { order: 1; }
+    .venture-image { order: 2; }
+  }
+}
+
+.venture-content {
+  padding: 3rem;
+  @media (max-width: 768px) {
+    padding: 2rem;
+  }
+}
+
+.venture-image {
+  height: 100%;
+  min-height: 320px;
+  @media (max-width: 768px) {
+    min-height: 250px;
+  }
 }

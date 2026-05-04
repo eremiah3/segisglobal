@@ -51,8 +51,8 @@ export default function Ventures() {
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
             {active.map((v, i) => (
-              <div key={v.name} className="reveal" style={{ display: 'grid', gridTemplateColumns: i % 2 === 0 ? '1.3fr 1fr' : '1fr 1.3fr', gap: '3.5rem', alignItems: 'center', background: i % 2 === 0 ? '#fff' : '#FAF8F3', border: '1px solid #E8E4DC', borderRadius: '8px', overflow: 'hidden' }}>
-                <div style={{ padding: '3rem', order: i % 2 === 0 ? 1 : 2 }}>
+              <div key={v.name} className={`reveal venture-card ${i % 2 === 0 ? 'venture-card--normal' : 'venture-card--reverse'}`}>
+                <div className="venture-content">
                   <div style={{ display: 'flex', gap: '0.7rem', marginBottom: '1.4rem', alignItems: 'center' }}>
                     <span className="sector-tag">{v.sector}</span>
                     <span style={{ background: 'rgba(14,95,52,0.08)', border: '1px solid rgba(14,95,52,0.2)', color: '#0e5f34', borderRadius: '2px', padding: '0.3rem 0.75rem', fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', fontFamily: 'DM Sans,sans-serif' }}>{v.stage}</span>
@@ -63,7 +63,7 @@ export default function Ventures() {
                     Learn More <ExternalLink size={13} />
                   </a>
                 </div>
-                <div style={{ order: i % 2 === 0 ? 2 : 1, height: '100%', minHeight: '320px' }}>
+                <div className="venture-image">
                   <img src={v.img} alt={v.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', minHeight: '320px' }} />
                 </div>
               </div>

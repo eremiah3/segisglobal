@@ -66,12 +66,12 @@ export default function Contact() {
       {/* CONTACT SECTION */}
       <section className="section section--white">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr', gap: '5rem', alignItems: 'start' }}>
+          <div className="contact-main-grid">
             {/* LEFT */}
             <div className="reveal">
               <div className="gold-rule" />
               <span className="section-label">Contact Information</span>
-              <h2 style={{ fontSize: '2rem', marginBottom: '1.6rem', color: '#0D1B2A' }}>We're Ready<br />to Listen.</h2>
+              <h2 className="contact-heading" style={{ marginBottom: '1.6rem', color: '#0D1B2A' }}>We're Ready<br />to Listen.</h2>
               <p style={{ marginBottom: '2.5rem', color: '#374151' }}>
                 Reach out directly or use the form. We review every message and respond within 2 business days.
               </p>
@@ -102,7 +102,7 @@ export default function Contact() {
 
             {/* FORM */}
             <div className="reveal">
-              <div style={{ background: '#FAF8F3', border: '1px solid #E8E4DC', borderRadius: '8px', padding: 'clamp(2rem, 4vw, 3.5rem)' }}>
+              <div className="contact-form-wrapper">
                 <h3 style={{ color: '#0D1B2A', marginBottom: '0.4rem' }}>Send Us a Message</h3>
                 <p style={{ fontSize: '0.88rem', color: '#6B7280', marginBottom: '2.5rem' }}>
                   Fill in the form below and our team will be in touch shortly.
@@ -121,7 +121,7 @@ export default function Contact() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem' }} className="contact-form-grid">
                       <div>
                         <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 600, color: '#1A2535', fontFamily: 'DM Sans,sans-serif', marginBottom: '0.5rem', letterSpacing: '0.04em' }}>Full Name *</label>
                         <input name="name" value={form.name} onChange={handleChange} required placeholder="John Doe" style={inputStyle}
@@ -135,7 +135,7 @@ export default function Contact() {
                           onBlur={e => { e.target.style.borderColor = '#E8E4DC'; e.target.style.boxShadow = 'none' }} />
                       </div>
                     </div>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem' }} className="contact-form-grid">
                       <div>
                         <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 600, color: '#1A2535', fontFamily: 'DM Sans,sans-serif', marginBottom: '0.5rem', letterSpacing: '0.04em' }}>Company Name</label>
                         <input name="company" value={form.company} onChange={handleChange} placeholder="Your Company" style={inputStyle}
@@ -188,7 +188,7 @@ export default function Contact() {
       </section>
 
       {/* MAP PLACEHOLDER */}
-      <div style={{ height: '380px', background: '#F5F6F8', border: '1px solid #E8E4DC', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+      <div className="contact-map">
         <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1800&q=60"
           alt="Lagos skyline" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(0.6) brightness(0.85)' }} />
         <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

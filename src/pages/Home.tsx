@@ -181,7 +181,7 @@ export default function Home() {
               </a>
             </div>
             <div
-              className="reveal"
+              className="reveal home-values-grid"
               style={{
                 display: "grid",
                 gap: "1.2rem",
