@@ -49,17 +49,18 @@ export default function WhatWeDo() {
   return (
     <PageTransition>
       <Helmet>
-        <title>What We Do - SEGIS Investment Services</title>
-        <meta name="description" content="Explore SEGIS Global Investment's comprehensive services: venture creation, strategic partnerships, selective investments, and business advisory across African markets." />
-        <meta property="og:title" content="What We Do - SEGIS Investment Services" />
-        <meta property="og:description" content="Explore SEGIS Global Investment's comprehensive services: venture creation, strategic partnerships, selective investments, and business advisory across African markets." />
-        <meta property="og:image" content="/images/what.jpeg" />
+        <title>What We Do | SEGIS Global Investment</title>
+        <meta name="description" content="Venture creation, strategic partnerships, selective investments, and business advisory — four integrated capabilities built around one principle: execution over advice." />
+        <meta property="og:title" content="What We Do | SEGIS Global Investment" />
+        <meta property="og:description" content="We build from zero, partner to win, deploy capital strategically, and accelerate what already works. Four capabilities. One standard: results." />
+        <meta property="og:image" content="https://segisglobal.com/images/what.jpeg" />
         <meta property="og:url" content="https://segisglobal.com/what-we-do" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="What We Do - SEGIS Investment Services" />
-        <meta name="twitter:description" content="Explore SEGIS Global Investment's comprehensive services: venture creation, strategic partnerships, selective investments, and business advisory across African markets." />
-        <meta name="twitter:image" content="/images/what.jpeg" />
+        <meta name="twitter:title" content="What We Do | SEGIS Global Investment" />
+        <meta name="twitter:description" content="We build from zero, partner to win, deploy capital strategically, and accelerate what already works. Four capabilities. One standard: results." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/what.jpeg" />
+        <link rel="canonical" href="https://segisglobal.com/what-we-do" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

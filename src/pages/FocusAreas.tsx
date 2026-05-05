@@ -68,17 +68,18 @@ export default function FocusAreas() {
   return (
     <PageTransition>
       <Helmet>
-        <title>Focus Areas - SEGIS Investment Sectors</title>
-        <meta name="description" content="Discover SEGIS Global Investment's focus sectors: Technology & Digital, Consumer & Lifestyle, Infrastructure, Logistics & Trade, Creative Economy, and Impact Ventures." />
-        <meta property="og:title" content="Focus Areas - SEGIS Investment Sectors" />
-        <meta property="og:description" content="Discover SEGIS Global Investment's focus sectors: Technology & Digital, Consumer & Lifestyle, Infrastructure, Logistics & Trade, Creative Economy, and Impact Ventures." />
-        <meta property="og:image" content="/images/focusarea.jpeg" />
+        <title>Our Focus Areas | SEGIS Global Investment</title>
+        <meta name="description" content="Six high-conviction sectors — technology, consumer brands, infrastructure, logistics, the creative economy, and impact ventures. This is where SEGIS invests and builds across Africa." />
+        <meta property="og:title" content="Where We Invest | SEGIS Global Investment" />
+        <meta property="og:description" content="Six sectors. Deep expertise. From fintech and consumer brands to infrastructure and creative economy — SEGIS backs businesses at the frontier of Africa's growth." />
+        <meta property="og:image" content="https://segisglobal.com/images/focusarea.jpeg" />
         <meta property="og:url" content="https://segisglobal.com/focus-areas" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Focus Areas - SEGIS Investment Sectors" />
-        <meta name="twitter:description" content="Discover SEGIS Global Investment's focus sectors: Technology & Digital, Consumer & Lifestyle, Infrastructure, Logistics & Trade, Creative Economy, and Impact Ventures." />
-        <meta name="twitter:image" content="/images/focusarea.jpeg" />
+        <meta name="twitter:title" content="Where We Invest | SEGIS Global Investment" />
+        <meta name="twitter:description" content="Six sectors. Deep expertise. From fintech and consumer brands to infrastructure and creative economy — SEGIS backs businesses at the frontier of Africa's growth." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/focusarea.jpeg" />
+        <link rel="canonical" href="https://segisglobal.com/focus-areas" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

@@ -62,15 +62,15 @@ export default function About() {
     <PageTransition>
       <Helmet>
         <title>About SEGIS - Our Story and Investment Philosophy</title>
-        <meta name="description" content="Learn about SEGIS Global Investment's journey since 2015, our investment philosophy, and our commitment to building sustainable businesses across Africa." />
-        <meta property="og:title" content="About SEGIS - Our Story and Investment Philosophy" />
-        <meta property="og:description" content="Learn about SEGIS Global Investment's journey since 2015, our investment philosophy, and our commitment to building sustainable businesses across Africa." />
+        <meta name="description" content="Since 2015, SEGIS has built and scaled ventures across Africa. Deep expertise, proven track record, and unwavering commitment to transformative African entrepreneurship." />
+        <meta property="og:title" content="About SEGIS - Africa's Premier Venture Builder" />
+        <meta property="og:description" content="Since 2015, SEGIS has built and scaled ventures across Africa. Deep expertise, proven track record, and unwavering commitment to transformative African entrepreneurship." />
         <meta property="og:image" content="/images/about-hero.jpg" />
         <meta property="og:url" content="https://segisglobal.com/about" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About SEGIS - Our Story and Investment Philosophy" />
-        <meta name="twitter:description" content="Learn about SEGIS Global Investment's journey since 2015, our investment philosophy, and our commitment to building sustainable businesses across Africa." />
+        <meta name="twitter:title" content="About SEGIS - Africa's Premier Venture Builder" />
+        <meta name="twitter:description" content="Since 2015, SEGIS has built and scaled ventures across Africa. Deep expertise, proven track record, and unwavering commitment to transformative African entrepreneurship." />
         <meta name="twitter:image" content="/images/about-hero.jpg" />
       </Helmet>
       {/* HERO */}

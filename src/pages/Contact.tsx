@@ -53,15 +53,15 @@ export default function Contact() {
     <PageTransition>
       <Helmet>
         <title>Contact SEGIS - Get in Touch</title>
-        <meta name="description" content="Ready to explore partnership opportunities? Contact SEGIS Global Investment to discuss investment opportunities, strategic partnerships, or business development across Africa." />
-        <meta property="og:title" content="Contact SEGIS - Get in Touch" />
-        <meta property="og:description" content="Ready to explore partnership opportunities? Contact SEGIS Global Investment to discuss investment opportunities, strategic partnerships, or business development across Africa." />
+        <meta name="description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
+        <meta property="og:title" content="Contact SEGIS - Start Building Africa's Future" />
+        <meta property="og:description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
         <meta property="og:image" content="/images/contact-hero.jpg" />
         <meta property="og:url" content="https://segisglobal.com/contact" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact SEGIS - Get in Touch" />
-        <meta name="twitter:description" content="Ready to explore partnership opportunities? Contact SEGIS Global Investment to discuss investment opportunities, strategic partnerships, or business development across Africa." />
+        <meta name="twitter:title" content="Contact SEGIS - Start Building Africa's Future" />
+        <meta name="twitter:description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
         <meta name="twitter:image" content="/images/contact-hero.jpg" />
       </Helmet>
       {/* HERO */}

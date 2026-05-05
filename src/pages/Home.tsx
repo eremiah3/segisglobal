@@ -115,17 +115,18 @@ export default function Home() {
   return (
     <PageTransition>
       <Helmet>
-        <title>SEGIS Global Investment - Strategic Investments Across Africa</title>
-        <meta name="description" content="SEGIS Global Investment partners with entrepreneurs and businesses across Africa to build ventures in technology, consumer goods, infrastructure, and more. Discover our approach." />
-        <meta property="og:title" content="SEGIS Global Investment - Strategic Investments Across Africa" />
-        <meta property="og:description" content="SEGIS Global Investment partners with entrepreneurs and businesses across Africa to build ventures in technology, consumer goods, infrastructure, and more." />
-        <meta property="og:image" content="/logo.png" />
+        <title>SEGIS Global Investment | Building Africa's Next Generation of Ventures</title>
+        <meta name="description" content="SEGIS Global Investment partners with founders and businesses across Africa to build and scale ventures in technology, real estate, agriculture, consumer goods, and infrastructure." />
+        <meta property="og:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
+        <meta property="og:description" content="We don't just invest — we build. Strategic capital and hands-on partnership for entrepreneurs and businesses shaping Africa's next economy." />
+        <meta property="og:image" content="https://segisglobal.com/og-image.png" />
         <meta property="og:url" content="https://segisglobal.com/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="SEGIS Global Investment - Strategic Investments Across Africa" />
-        <meta name="twitter:description" content="SEGIS Global Investment partners with entrepreneurs and businesses across Africa to build ventures in technology, consumer goods, infrastructure, and more." />
-        <meta name="twitter:image" content="/logo.png" />
+        <meta name="twitter:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
+        <meta name="twitter:description" content="We don't just invest — we build. Strategic capital and hands-on partnership for entrepreneurs and businesses shaping Africa's next economy." />
+        <meta name="twitter:image" content="https://segisglobal.com/og-image.png" />
+        <link rel="canonical" href="https://segisglobal.com/" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--full">

@@ -29,17 +29,18 @@ export default function Ventures() {
   return (
     <PageTransition>
       <Helmet>
-        <title>Our Ventures - SEGIS Portfolio Companies</title>
-        <meta name="description" content="Explore SEGIS Global Investment's active portfolio ventures across technology, consumer brands, logistics, and more. See our track record of building successful African businesses." />
-        <meta property="og:title" content="Our Ventures - SEGIS Portfolio Companies" />
-        <meta property="og:description" content="Explore SEGIS Global Investment's active portfolio ventures across technology, consumer brands, logistics, and more. See our track record of building successful African businesses." />
-        <meta property="og:image" content="/images/ventures-hero.jpg" />
+        <title>Our Ventures | SEGIS Global Investment</title>
+        <meta name="description" content="Explore the SEGIS portfolio — active ventures, businesses in development, and the sectors we're pursuing next. Built to scale, designed to last." />
+        <meta property="og:title" content="Our Portfolio | SEGIS Global Investment" />
+        <meta property="og:description" content="From cross-border trade platforms to consumer brand portfolios — see the ventures SEGIS has built, backed, and is bringing to market across Africa." />
+        <meta property="og:image" content="https://segisglobal.com/images/ventures-hero.jpg" />
         <meta property="og:url" content="https://segisglobal.com/ventures" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Ventures - SEGIS Portfolio Companies" />
-        <meta name="twitter:description" content="Explore SEGIS Global Investment's active portfolio ventures across technology, consumer brands, logistics, and more. See our track record of building successful African businesses." />
-        <meta name="twitter:image" content="/images/ventures-hero.jpg" />
+        <meta name="twitter:title" content="Our Portfolio | SEGIS Global Investment" />
+        <meta name="twitter:description" content="From cross-border trade platforms to consumer brand portfolios — see the ventures SEGIS has built, backed, and is bringing to market across Africa." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/ventures-hero.jpg" />
+        <link rel="canonical" href="https://segisglobal.com/ventures" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
