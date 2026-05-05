@@ -33,13 +33,13 @@ export default function Ventures() {
         <meta name="description" content="Explore the SEGIS portfolio — active ventures, businesses in development, and the sectors we're pursuing next. Built to scale, designed to last." />
         <meta property="og:title" content="Our Portfolio | SEGIS Global Investment" />
         <meta property="og:description" content="From cross-border trade platforms to consumer brand portfolios — see the ventures SEGIS has built, backed, and is bringing to market across Africa." />
-        <meta property="og:image" content="https://segisglobal.com/images/ventures-hero.jpg" />
+        <meta property="og:image" content="/images/OGimage.png" />
         <meta property="og:url" content="https://segisglobal.com/ventures" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Portfolio | SEGIS Global Investment" />
         <meta name="twitter:description" content="From cross-border trade platforms to consumer brand portfolios — see the ventures SEGIS has built, backed, and is bringing to market across Africa." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/ventures-hero.jpg" />
+        <meta name="twitter:image" content="/images/OGimage.png" />
         <link rel="canonical" href="https://segisglobal.com/ventures" />
       </Helmet>
       {/* HERO */}

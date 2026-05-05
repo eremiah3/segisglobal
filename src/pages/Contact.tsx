@@ -56,13 +56,13 @@ export default function Contact() {
         <meta name="description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
         <meta property="og:title" content="Contact SEGIS - Start Building Africa's Future" />
         <meta property="og:description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
-        <meta property="og:image" content="/images/contact-hero.jpg" />
+        <meta property="og:image" content="/images/OGimage.png" />
         <meta property="og:url" content="https://segisglobal.com/contact" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact SEGIS - Start Building Africa's Future" />
         <meta name="twitter:description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
-        <meta name="twitter:image" content="/images/contact-hero.jpg" />
+        <meta name="twitter:image" content="/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
