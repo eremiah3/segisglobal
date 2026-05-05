@@ -63,8 +63,8 @@ export default function WhatWeDo() {
 <meta property="og:description" content="We build ventures, form strategic partnerships, deploy capital, and accelerate growth—delivering measurable results across Africa." />
 
 {/* <!-- FIXED: absolute URL --> */}
-<meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-<meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+<meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+<meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 
@@ -72,7 +72,7 @@ export default function WhatWeDo() {
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="What We Do | SEGIS Global Investment" />
 <meta name="twitter:description" content="From venture creation to strategic investment—focused on execution, scale, and results." />
-<meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+<meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

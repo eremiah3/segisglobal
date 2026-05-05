@@ -43,8 +43,8 @@ export default function Ventures() {
         <meta property="og:description" content="Discover the ventures SEGIS has built and backed—from cross-border platforms to consumer brands shaping Africa’s next phase of growth." />
 
         {/* <!-- FIXED: absolute URL --> */}
-        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -52,7 +52,7 @@ export default function Ventures() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Ventures | SEGIS Global Investment" />
         <meta name="twitter:description" content="A portfolio of scalable ventures across Africa—built for impact and long-term value." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

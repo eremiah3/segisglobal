@@ -66,8 +66,8 @@ export default function Contact() {
         <meta property="og:description" content="Let’s connect. Partner with SEGIS to build and scale high-impact ventures across Africa." />
 
         {/* <!-- FIXED: absolute image URL --> */}
-        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -75,7 +75,7 @@ export default function Contact() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact SEGIS Global Investment" />
         <meta name="twitter:description" content="Reach out to explore partnerships, investments, and venture opportunities across Africa." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

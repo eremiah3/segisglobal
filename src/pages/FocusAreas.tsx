@@ -82,8 +82,8 @@ export default function FocusAreas() {
         <meta property="og:description" content="We invest across six high-growth sectors—from technology and consumer brands to infrastructure and the creative economy—backing Africa’s next generation of ventures." />
 
         {/* <!-- FIXED: absolute URL --> */}
-        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -91,7 +91,7 @@ export default function FocusAreas() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Where We Invest | SEGIS Global Investment" />
         <meta name="twitter:description" content="Backing high-growth sectors across Africa—from technology and logistics to infrastructure and creative industries." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

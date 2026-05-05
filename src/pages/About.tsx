@@ -73,8 +73,8 @@ export default function About() {
         <meta property="og:description" content="Since 2015, we have built and scaled ventures across Africa—combining deep expertise with a long-term investment vision." />
 
 
-        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -82,7 +82,7 @@ export default function About() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About SEGIS Global Investment" />
         <meta name="twitter:description" content="Building and scaling impactful ventures across Africa since 2015." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

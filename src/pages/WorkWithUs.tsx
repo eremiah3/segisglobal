@@ -69,8 +69,8 @@ export default function WorkWithUs() {
         <meta property="og:title" content="Work With Us | SEGIS Global Investment" />
         <meta property="og:description" content="Three structured paths for founders, businesses, and partners. We bring more than capital—we bring execution, strategy, and growth." />
 
-        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -78,7 +78,7 @@ export default function WorkWithUs() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Work With Us | SEGIS Global Investment" />
         <meta name="twitter:description" content="Work with SEGIS—venture building, partnerships, and capital to help you scale with clarity and execution." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

@@ -129,8 +129,8 @@ export default function Home() {
         <meta property="og:description" content="We partner with bold ideas to build and scale high-impact ventures across Africa." />
 
         {/* <!-- FIXED: absolute URL --> */}
-        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
-        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -138,7 +138,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
         <meta name="twitter:description" content="Building and scaling high-impact ventures across Africa and beyond." />
-        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--full">
