@@ -8,6 +8,7 @@ import {
   Globe,
   CheckCircle2,
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import PageTransition from "../components/PageTransition";
 import { useReveal } from "../utils/useReveal";
 import "../styles/globals.scss";
@@ -113,6 +114,19 @@ export default function Home() {
 
   return (
     <PageTransition>
+      <Helmet>
+        <title>SEGIS Global Investment - Strategic Investments Across Africa</title>
+        <meta name="description" content="SEGIS Global Investment partners with entrepreneurs and businesses across Africa to build ventures in technology, consumer goods, infrastructure, and more. Discover our approach." />
+        <meta property="og:title" content="SEGIS Global Investment - Strategic Investments Across Africa" />
+        <meta property="og:description" content="SEGIS Global Investment partners with entrepreneurs and businesses across Africa to build ventures in technology, consumer goods, infrastructure, and more." />
+        <meta property="og:image" content="/logo.png" />
+        <meta property="og:url" content="https://segisglobal.com/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEGIS Global Investment - Strategic Investments Across Africa" />
+        <meta name="twitter:description" content="SEGIS Global Investment partners with entrepreneurs and businesses across Africa to build ventures in technology, consumer goods, infrastructure, and more." />
+        <meta name="twitter:image" content="/logo.png" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--full">
         <div

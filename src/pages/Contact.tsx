@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, MapPin, Mail, Phone, Clock, ChevronDown } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
 import PageTransition from '../components/PageTransition'
 import { useReveal } from '../utils/useReveal'
 import '../styles/globals.scss'
@@ -50,6 +51,19 @@ export default function Contact() {
 
   return (
     <PageTransition>
+      <Helmet>
+        <title>Contact SEGIS - Get in Touch</title>
+        <meta name="description" content="Ready to explore partnership opportunities? Contact SEGIS Global Investment to discuss investment opportunities, strategic partnerships, or business development across Africa." />
+        <meta property="og:title" content="Contact SEGIS - Get in Touch" />
+        <meta property="og:description" content="Ready to explore partnership opportunities? Contact SEGIS Global Investment to discuss investment opportunities, strategic partnerships, or business development across Africa." />
+        <meta property="og:image" content="/images/contact-hero.jpg" />
+        <meta property="og:url" content="https://segisglobal.com/contact" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact SEGIS - Get in Touch" />
+        <meta name="twitter:description" content="Ready to explore partnership opportunities? Contact SEGIS Global Investment to discuss investment opportunities, strategic partnerships, or business development across Africa." />
+        <meta name="twitter:image" content="/images/contact-hero.jpg" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
         <div className="hero__bg" style={{ backgroundImage: 'url(/images/contact.jpeg)' }} />

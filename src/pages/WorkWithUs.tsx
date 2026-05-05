@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Rocket, Building2, Handshake, CheckCircle2 } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
 import PageTransition from '../components/PageTransition'
 import { useReveal } from '../utils/useReveal'
 import '../styles/globals.scss'
@@ -54,6 +55,19 @@ export default function WorkWithUs() {
   useReveal()
   return (
     <PageTransition>
+      <Helmet>
+        <title>Work With Us - Partner with SEGIS Global Investment</title>
+        <meta name="description" content="Explore partnership opportunities with SEGIS Global Investment. Whether you're a founder, established business, or investor, discover how we can collaborate to build successful ventures." />
+        <meta property="og:title" content="Work With Us - Partner with SEGIS Global Investment" />
+        <meta property="og:description" content="Explore partnership opportunities with SEGIS Global Investment. Whether you're a founder, established business, or investor, discover how we can collaborate to build successful ventures." />
+        <meta property="og:image" content="/images/work.jpeg" />
+        <meta property="og:url" content="https://segisglobal.com/work-with-us" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Work With Us - Partner with SEGIS Global Investment" />
+        <meta name="twitter:description" content="Explore partnership opportunities with SEGIS Global Investment. Whether you're a founder, established business, or investor, discover how we can collaborate to build successful ventures." />
+        <meta name="twitter:image" content="/images/work.jpeg" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
         <div className="hero__bg" style={{ backgroundImage: 'url(/images/work.jpeg)' }} />

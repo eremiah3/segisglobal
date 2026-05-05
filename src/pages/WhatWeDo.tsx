@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Lightbulb, Handshake, TrendingUp, BarChart3 } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
 import PageTransition from '../components/PageTransition'
 import { useReveal } from '../utils/useReveal'
 import '../styles/globals.scss'
@@ -47,6 +48,19 @@ export default function WhatWeDo() {
   useReveal()
   return (
     <PageTransition>
+      <Helmet>
+        <title>What We Do - SEGIS Investment Services</title>
+        <meta name="description" content="Explore SEGIS Global Investment's comprehensive services: venture creation, strategic partnerships, selective investments, and business advisory across African markets." />
+        <meta property="og:title" content="What We Do - SEGIS Investment Services" />
+        <meta property="og:description" content="Explore SEGIS Global Investment's comprehensive services: venture creation, strategic partnerships, selective investments, and business advisory across African markets." />
+        <meta property="og:image" content="/images/what.jpeg" />
+        <meta property="og:url" content="https://segisglobal.com/what-we-do" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="What We Do - SEGIS Investment Services" />
+        <meta name="twitter:description" content="Explore SEGIS Global Investment's comprehensive services: venture creation, strategic partnerships, selective investments, and business advisory across African markets." />
+        <meta name="twitter:image" content="/images/what.jpeg" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
         <div className="hero__bg" style={{ backgroundImage: 'url(/images/what.jpeg)' }} />

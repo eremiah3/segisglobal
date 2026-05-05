@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, ExternalLink } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
 import PageTransition from '../components/PageTransition'
 import { useReveal } from '../utils/useReveal'
 import '../styles/globals.scss'
@@ -27,6 +28,19 @@ export default function Ventures() {
   useReveal()
   return (
     <PageTransition>
+      <Helmet>
+        <title>Our Ventures - SEGIS Portfolio Companies</title>
+        <meta name="description" content="Explore SEGIS Global Investment's active portfolio ventures across technology, consumer brands, logistics, and more. See our track record of building successful African businesses." />
+        <meta property="og:title" content="Our Ventures - SEGIS Portfolio Companies" />
+        <meta property="og:description" content="Explore SEGIS Global Investment's active portfolio ventures across technology, consumer brands, logistics, and more. See our track record of building successful African businesses." />
+        <meta property="og:image" content="/images/ventures-hero.jpg" />
+        <meta property="og:url" content="https://segisglobal.com/ventures" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Ventures - SEGIS Portfolio Companies" />
+        <meta name="twitter:description" content="Explore SEGIS Global Investment's active portfolio ventures across technology, consumer brands, logistics, and more. See our track record of building successful African businesses." />
+        <meta name="twitter:image" content="/images/ventures-hero.jpg" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
         <div className="hero__bg" style={{ backgroundImage: 'url(/images/venture.jpeg)' }} />

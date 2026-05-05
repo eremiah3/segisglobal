@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Hammer, Handshake, TrendingUp } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import PageTransition from "../components/PageTransition";
 import { useReveal } from "../utils/useReveal";
 import "../styles/globals.scss";
@@ -59,6 +60,19 @@ export default function About() {
   useReveal();
   return (
     <PageTransition>
+      <Helmet>
+        <title>About SEGIS - Our Story and Investment Philosophy</title>
+        <meta name="description" content="Learn about SEGIS Global Investment's journey since 2015, our investment philosophy, and our commitment to building sustainable businesses across Africa." />
+        <meta property="og:title" content="About SEGIS - Our Story and Investment Philosophy" />
+        <meta property="og:description" content="Learn about SEGIS Global Investment's journey since 2015, our investment philosophy, and our commitment to building sustainable businesses across Africa." />
+        <meta property="og:image" content="/images/about-hero.jpg" />
+        <meta property="og:url" content="https://segisglobal.com/about" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About SEGIS - Our Story and Investment Philosophy" />
+        <meta name="twitter:description" content="Learn about SEGIS Global Investment's journey since 2015, our investment philosophy, and our commitment to building sustainable businesses across Africa." />
+        <meta name="twitter:image" content="/images/about-hero.jpg" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
         <div

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Cpu, ShoppingBag, Building2, Package, Music, Leaf } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
 import PageTransition from '../components/PageTransition'
 import { useReveal } from '../utils/useReveal'
 import '../styles/globals.scss'
@@ -66,6 +67,19 @@ export default function FocusAreas() {
   useReveal()
   return (
     <PageTransition>
+      <Helmet>
+        <title>Focus Areas - SEGIS Investment Sectors</title>
+        <meta name="description" content="Discover SEGIS Global Investment's focus sectors: Technology & Digital, Consumer & Lifestyle, Infrastructure, Logistics & Trade, Creative Economy, and Impact Ventures." />
+        <meta property="og:title" content="Focus Areas - SEGIS Investment Sectors" />
+        <meta property="og:description" content="Discover SEGIS Global Investment's focus sectors: Technology & Digital, Consumer & Lifestyle, Infrastructure, Logistics & Trade, Creative Economy, and Impact Ventures." />
+        <meta property="og:image" content="/images/focusarea.jpeg" />
+        <meta property="og:url" content="https://segisglobal.com/focus-areas" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Focus Areas - SEGIS Investment Sectors" />
+        <meta name="twitter:description" content="Discover SEGIS Global Investment's focus sectors: Technology & Digital, Consumer & Lifestyle, Infrastructure, Logistics & Trade, Creative Economy, and Impact Ventures." />
+        <meta name="twitter:image" content="/images/focusarea.jpeg" />
+      </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
         <div className="hero__bg" style={{ backgroundImage: 'url(/images/focusarea.jpeg)' }} />
