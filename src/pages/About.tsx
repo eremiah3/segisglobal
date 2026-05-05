@@ -61,17 +61,28 @@ export default function About() {
   return (
     <PageTransition>
       <Helmet>
-        <title>About SEGIS - Our Story and Investment Philosophy</title>
-        <meta name="description" content="Since 2015, SEGIS has built and scaled ventures across Africa. Deep expertise, proven track record, and unwavering commitment to transformative African entrepreneurship." />
-        <meta property="og:title" content="About SEGIS - Africa's Premier Venture Builder" />
-        <meta property="og:description" content="Since 2015, SEGIS has built and scaled ventures across Africa. Deep expertise, proven track record, and unwavering commitment to transformative African entrepreneurship." />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/about" />
+        <title>About SEGIS Global Investment | Our Story, Vision & Investment Approach</title>
+        <meta name="description" content="Founded in 2015, SEGIS Global Investment builds, funds, and scales high-impact ventures across Africa. Discover our story, expertise, and long-term commitment to transformative growth." />
+        <link rel="canonical" href="https://segisglobal.com/about" />
+
+
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="SEGIS Global Investment" />
+        <meta property="og:url" content="https://segisglobal.com/about" />
+        <meta property="og:title" content="About SEGIS Global Investment" />
+        <meta property="og:description" content="Since 2015, we have built and scaled ventures across Africa—combining deep expertise with a long-term investment vision." />
+
+
+        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About SEGIS - Africa's Premier Venture Builder" />
-        <meta name="twitter:description" content="Since 2015, SEGIS has built and scaled ventures across Africa. Deep expertise, proven track record, and unwavering commitment to transformative African entrepreneurship." />
-        <meta name="twitter:image" content="/images/OGimage.png" />
+        <meta name="twitter:title" content="About SEGIS Global Investment" />
+        <meta name="twitter:description" content="Building and scaling impactful ventures across Africa since 2015." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

@@ -57,17 +57,28 @@ export default function WorkWithUs() {
     <PageTransition>
       <Helmet>
         <title>Work With Us | SEGIS Global Investment</title>
-        <meta name="description" content="Founders, established businesses, and strategic partners — there's a path for you at SEGIS. Tell us what you're building and let's explore how we create value together." />
-        <meta property="og:title" content="Work With Us | SEGIS Global Investment" />
-        <meta property="og:description" content="Three structured tracks for founders, businesses, and collaborators. SEGIS brings more than capital — we bring the team, network, and execution to make it real." />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/work-with-us" />
+
+        <meta name="description" content="Partner with SEGIS Global Investment. Whether you're a founder, an established business, or a strategic collaborator—we provide capital, execution, and networks to help you scale." />
+
+        <link rel="canonical" href="https://segisglobal.com/work-with-us" />
+
+        {/* <!-- Open Graph --> */}
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="SEGIS Global Investment" />
+        <meta property="og:url" content="https://segisglobal.com/work-with-us" />
+        <meta property="og:title" content="Work With Us | SEGIS Global Investment" />
+        <meta property="og:description" content="Three structured paths for founders, businesses, and partners. We bring more than capital—we bring execution, strategy, and growth." />
+
+        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Work With Us | SEGIS Global Investment" />
-        <meta name="twitter:description" content="Three structured tracks for founders, businesses, and collaborators. SEGIS brings more than capital — we bring the team, network, and execution to make it real." />
-        <meta name="twitter:image" content="/images/OGimage.png" />
-        <link rel="canonical" href="https://segisglobal.com/work-with-us" />
+        <meta name="twitter:description" content="Work with SEGIS—venture building, partnerships, and capital to help you scale with clarity and execution." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

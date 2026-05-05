@@ -69,17 +69,29 @@ export default function FocusAreas() {
     <PageTransition>
       <Helmet>
         <title>Our Focus Areas | SEGIS Global Investment</title>
-        <meta name="description" content="Six high-conviction sectors — technology, consumer brands, infrastructure, logistics, the creative economy, and impact ventures. This is where SEGIS invests and builds across Africa." />
-        <meta property="og:title" content="Where We Invest | SEGIS Global Investment" />
-        <meta property="og:description" content="Six sectors. Deep expertise. From fintech and consumer brands to infrastructure and creative economy — SEGIS backs businesses at the frontier of Africa's growth." />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/focus-areas" />
+
+        <meta name="description" content="SEGIS Global Investment focuses on six high-conviction sectors including technology, consumer brands, infrastructure, logistics, the creative economy, and impact ventures—driving growth across Africa." />
+
+        <link rel="canonical" href="https://segisglobal.com/focus-areas" />
+
+        {/* <!-- Open Graph --> */}
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="SEGIS Global Investment" />
+        <meta property="og:url" content="https://segisglobal.com/focus-areas" />
+        <meta property="og:title" content="Where We Invest | SEGIS Global Investment" />
+        <meta property="og:description" content="We invest across six high-growth sectors—from technology and consumer brands to infrastructure and the creative economy—backing Africa’s next generation of ventures." />
+
+        {/* <!-- FIXED: absolute URL --> */}
+        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Where We Invest | SEGIS Global Investment" />
-        <meta name="twitter:description" content="Six sectors. Deep expertise. From fintech and consumer brands to infrastructure and creative economy — SEGIS backs businesses at the frontier of Africa's growth." />
-        <meta name="twitter:image" content="/images/OGimage.png" />
-        <link rel="canonical" href="https://segisglobal.com/focus-areas" />
+        <meta name="twitter:description" content="Backing high-growth sectors across Africa—from technology and logistics to infrastructure and creative industries." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

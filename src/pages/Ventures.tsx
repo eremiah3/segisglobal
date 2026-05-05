@@ -30,17 +30,29 @@ export default function Ventures() {
     <PageTransition>
       <Helmet>
         <title>Our Ventures | SEGIS Global Investment</title>
-        <meta name="description" content="Explore the SEGIS portfolio — active ventures, businesses in development, and the sectors we're pursuing next. Built to scale, designed to last." />
-        <meta property="og:title" content="Our Portfolio | SEGIS Global Investment" />
-        <meta property="og:description" content="From cross-border trade platforms to consumer brand portfolios — see the ventures SEGIS has built, backed, and is bringing to market across Africa." />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/ventures" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Portfolio | SEGIS Global Investment" />
-        <meta name="twitter:description" content="From cross-border trade platforms to consumer brand portfolios — see the ventures SEGIS has built, backed, and is bringing to market across Africa." />
-        <meta name="twitter:image" content="/images/OGimage.png" />
+
+        <meta name="description" content="Explore SEGIS Global Investment’s portfolio of ventures—active businesses, emerging opportunities, and scalable platforms built across Africa for long-term growth." />
+
         <link rel="canonical" href="https://segisglobal.com/ventures" />
+
+        {/* <!-- Open Graph --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="SEGIS Global Investment" />
+        <meta property="og:url" content="https://segisglobal.com/ventures" />
+        <meta property="og:title" content="Our Ventures | SEGIS Global Investment" />
+        <meta property="og:description" content="Discover the ventures SEGIS has built and backed—from cross-border platforms to consumer brands shaping Africa’s next phase of growth." />
+
+        {/* <!-- FIXED: absolute URL --> */}
+        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* <!-- Twitter --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Ventures | SEGIS Global Investment" />
+        <meta name="twitter:description" content="A portfolio of scalable ventures across Africa—built for impact and long-term value." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

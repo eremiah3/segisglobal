@@ -52,17 +52,30 @@ export default function Contact() {
   return (
     <PageTransition>
       <Helmet>
-        <title>Contact SEGIS - Get in Touch</title>
-        <meta name="description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
-        <meta property="og:title" content="Contact SEGIS - Start Building Africa's Future" />
-        <meta property="og:description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/contact" />
+        <title>Contact SEGIS Global Investment | Partner With Us</title>
+
+        <meta name="description" content="Get in touch with SEGIS Global Investment. Whether you're a founder, investor, or partner, let’s explore opportunities to build and scale impactful ventures across Africa." />
+
+        <link rel="canonical" href="https://segisglobal.com/contact" />
+
+        {/* <!-- Open Graph --> */}
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="SEGIS Global Investment" />
+        <meta property="og:url" content="https://segisglobal.com/contact" />
+        <meta property="og:title" content="Contact SEGIS Global Investment" />
+        <meta property="og:description" content="Let’s connect. Partner with SEGIS to build and scale high-impact ventures across Africa." />
+
+        {/* <!-- FIXED: absolute image URL --> */}
+        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact SEGIS - Start Building Africa's Future" />
-        <meta name="twitter:description" content="Let's talk. Whether you're a founder, investor, or partner—reach out and let's explore how SEGIS can accelerate your African venture." />
-        <meta name="twitter:image" content="/images/OGimage.png" />
+        <meta name="twitter:title" content="Contact SEGIS Global Investment" />
+        <meta name="twitter:description" content="Reach out to explore partnerships, investments, and venture opportunities across Africa." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">

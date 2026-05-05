@@ -115,24 +115,30 @@ export default function Home() {
   return (
     <PageTransition>
       <Helmet>
-        <title>SEGIS Global Investment | Building Africa's Next Generation of Ventures</title>
-        <meta name="description" content="SEGIS Global Investment is a trading and investment company that
-                identifies, builds, and scales high-value business opportunities
-                across Africa and international markets. " />
-        <meta property="og:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
-        <meta property="og:description" content="SEGIS Global Investment is a trading and investment company that
-                identifies, builds, and scales high-value business opportunities
-                across Africa and international markets. " />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/" />
+        <title>SEGIS Global Investment | Strategic Capital for Africa’s Next Generation of Ventures</title>
+
+        <meta name="description" content="SEGIS Global Investment builds, funds, and scales high-impact ventures across Africa and global markets. Partner with us to unlock long-term growth and strategic opportunities." />
+
+        <link rel="canonical" href="https://segisglobal.com/" />
+
+        {/* <!-- Open Graph --> */}
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="SEGIS Global Investment" />
+        <meta property="og:url" content="https://segisglobal.com/" />
+        <meta property="og:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
+        <meta property="og:description" content="We partner with bold ideas to build and scale high-impact ventures across Africa." />
+
+        {/* <!-- FIXED: absolute URL --> */}
+        <meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
-        <meta name="twitter:description" content="SEGIS Global Investment is a trading and investment company that
-                identifies, builds, and scales high-value business opportunities
-                across Africa and international markets. " />
-        <meta name="twitter:image" content="/images/OGimage.png" />
-        <link rel="canonical" href="https://segisglobal.com/" />
+        <meta name="twitter:description" content="Building and scaling high-impact ventures across Africa and beyond." />
+        <meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--full">

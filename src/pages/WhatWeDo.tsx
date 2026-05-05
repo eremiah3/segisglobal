@@ -49,18 +49,30 @@ export default function WhatWeDo() {
   return (
     <PageTransition>
       <Helmet>
-        <title>What We Do | SEGIS Global Investment</title>
-        <meta name="description" content="Venture creation, strategic partnerships, selective investments, and business advisory — four integrated capabilities built around one principle: execution over advice." />
-        <meta property="og:title" content="What We Do | SEGIS Global Investment" />
-        <meta property="og:description" content="We build from zero, partner to win, deploy capital strategically, and accelerate what already works. Four capabilities. One standard: results." />
-        <meta property="og:image" content="/images/OGimage.png" />
-        <meta property="og:url" content="https://segisglobal.com/what-we-do" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="What We Do | SEGIS Global Investment" />
-        <meta name="twitter:description" content="We build from zero, partner to win, deploy capital strategically, and accelerate what already works. Four capabilities. One standard: results." />
-        <meta name="twitter:image" content="/images/OGimage.png" />
-        <link rel="canonical" href="https://segisglobal.com/what-we-do" />
+    <title>What We Do | SEGIS Global Investment</title>
+
+<meta name="description" content="SEGIS Global Investment delivers venture creation, strategic partnerships, selective investments, and business advisory—focused on execution, scale, and long-term value creation." />
+
+<link rel="canonical" href="https://segisglobal.com/what-we-do" />
+
+{/* <!-- Open Graph --> */}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="SEGIS Global Investment" />
+<meta property="og:url" content="https://segisglobal.com/what-we-do" />
+<meta property="og:title" content="What We Do | SEGIS Global Investment" />
+<meta property="og:description" content="We build ventures, form strategic partnerships, deploy capital, and accelerate growth—delivering measurable results across Africa." />
+
+{/* <!-- FIXED: absolute URL --> */}
+<meta property="og:image" content="https://segisglobal.com/images/OGimage.png" />
+<meta property="og:image:secure_url" content="https://segisglobal.com/images/OGimage.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+{/* <!-- Twitter --> */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="What We Do | SEGIS Global Investment" />
+<meta name="twitter:description" content="From venture creation to strategic investment—focused on execution, scale, and results." />
+<meta name="twitter:image" content="https://segisglobal.com/images/OGimage.png" />
       </Helmet>
       {/* HERO */}
       <section className="hero hero--inner">
