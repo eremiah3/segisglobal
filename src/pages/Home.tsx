@@ -27,7 +27,7 @@ const services = [
   {
     icon: Globe,
     title: "Selective Investments",
-    desc: "Capital deployed into high-potential companies across Africa and emerging markets where we see outsized opportunity.",
+    desc: "Capital deployed into high potential companies across Africa and emerging markets where we see outsized opportunity.",
   },
   {
     icon: Building2,
@@ -55,17 +55,17 @@ const sectors = [
   {
     icon: Globe,
     name: "Logistics & Trade",
-    desc: "Cross-border commerce solutions and supply chain modernisation.",
+    desc: "Cross border commerce solutions and supply chain modernisation.",
   },
   {
     icon: TrendingUp,
     name: "Creative Economy",
-    desc: "Media, entertainment, and creator-driven businesses with global reach.",
+    desc: "Media, entertainment, and creator driven businesses with global reach.",
   },
   {
     icon: Briefcase,
     name: "Impact Ventures",
-    desc: "Businesses with strong social return — education, healthcare, agriculture.",
+    desc: "Businesses with strong social return education, healthcare, agriculture.",
   },
 ];
 
@@ -78,7 +78,7 @@ const sectors = [
 
 const whys = [
   "Deep-rooted networks across African markets",
-  "End-to-end execution — not just capital",
+  "End-to-end execution not just capital",
   "Sector expertise paired with local insight",
   "Long-term partnership, not transactional deals",
   "Transparent, principled governance",
@@ -88,7 +88,7 @@ const whys = [
 const testimonials = [
   {
     quote:
-      "SEGIS brought more than capital — they brought conviction. They understood our market before we even pitched them.",
+      "SEGIS brought more than capital they brought conviction. They understood our market before we even pitched them.",
     name: "Adebayo O.",
     role: "Founder, Fintech Startup",
     initial: "A",
@@ -117,7 +117,7 @@ export default function Home() {
       <Helmet>
         <title>SEGIS Global Investment | Strategic Capital for Africa’s Next Generation of Ventures</title>
 
-        <meta name="description" content="SEGIS Global Investment builds, funds, and scales high-impact ventures across Africa and global markets. Partner with us to unlock long-term growth and strategic opportunities." />
+        <meta name="description" content="SEGIS Global Investment builds, funds, and scales high impact ventures across Africa and global markets. Partner with us to unlock long-term growth and strategic opportunities." />
 
         <link rel="canonical" href="https://segisglobal.com/" />
 
@@ -126,7 +126,7 @@ export default function Home() {
         <meta property="og:site_name" content="SEGIS Global Investment" />
         <meta property="og:url" content="https://segisglobal.com/" />
         <meta property="og:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
-        <meta property="og:description" content="We partner with bold ideas to build and scale high-impact ventures across Africa." />
+        <meta property="og:description" content="We partner with bold ideas to build and scale high impact ventures across Africa." />
 
         {/* <!-- FIXED: absolute URL --> */}
         <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
@@ -137,7 +137,7 @@ export default function Home() {
         {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="SEGIS Global Investment | Strategic Capital. Long-Term Partnership." />
-        <meta name="twitter:description" content="Building and scaling high-impact ventures across Africa and beyond." />
+        <meta name="twitter:description" content="Building and scaling high impact ventures across Africa and beyond." />
         <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
@@ -157,12 +157,14 @@ export default function Home() {
             SEGIS Global Investment
           </span>
           <h1 className="hero__heading fade-up fade-up--d2">
-            We Build. We Partner.
+            We Build.
+             <br />
+            We Partner.
             <br />
             We Scale.
           </h1>
           <p className="hero__para fade-up fade-up--d3">
-            A trading and investment company creating and executing high-value
+            A trading and investment company creating and executing high value
             business opportunities across Africa and beyond.
           </p>
           <div className="hero__cta fade-up fade-up--d4">
@@ -194,7 +196,7 @@ export default function Home() {
               </h2>
               <p style={{ marginBottom: "1.2rem" }}>
                 SEGIS Global Investment is a trading and investment company that
-                identifies, builds, and scales high-value business opportunities
+                identifies, builds, and scales high value business opportunities
                 across Africa and international markets.
               </p>
               <p style={{ marginBottom: "2rem" }}>
@@ -219,7 +221,7 @@ export default function Home() {
                 {
                   n: "01",
                   t: "Our Mission",
-                  d: "Creating high-value business opportunities that endure.",
+                  d: "Creating high value business opportunities that endure.",
                 },
                 {
                   n: "02",
@@ -581,7 +583,7 @@ export default function Home() {
             <h2>Let's Build Something That Works.</h2>
             <p>
               Whether you're a founder, a business seeking growth, or a
-              strategic partner — we want to hear from you.
+              strategic partner we want to hear from you.
             </p>
             <div className="cta-banner__btns">
               <a href="/contact" className="btn btn-primary">

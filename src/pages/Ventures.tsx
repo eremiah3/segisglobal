@@ -62,7 +62,7 @@ export default function Ventures() {
           <span className="hero__tag fade-up fade-up--d1">Our Portfolio</span>
           <h1 className="hero__heading fade-up fade-up--d2">Built. Building. Expanding.</h1>
           <p className="hero__para fade-up fade-up--d3">
-            A growing portfolio of businesses created, co-built, and backed by SEGIS — each one a testament to our execution-first philosophy.
+            A growing portfolio of businesses created, co built, and backed by SEGIS each one a testament to our execution first philosophy.
           </p>
         </div>
       </section>

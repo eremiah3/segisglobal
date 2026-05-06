@@ -10,22 +10,22 @@ const services = [
     icon: Lightbulb,
     title: 'Venture Creation',
     sub: 'We Build From Zero.',
-    desc: 'We identify commercial gaps, assemble teams, and build businesses from the ground up. From concept validation to market entry to scale — we own the process end-to-end. Venture creation is our most hands-on capability and where our edge is sharpest.',
+    desc: 'We identify commercial gaps, assemble teams, and build businesses from the ground up. From concept validation to market entry to scale we own the process end-to-end. Venture creation is our most hands-on capability and where our edge is sharpest.',
     bullets: ['Market research & opportunity validation', 'Business model design & financial architecture', 'Team building & operations setup', 'Go-to-market strategy & execution'],
   },
   {
     icon: Handshake,
     title: 'Strategic Partnerships',
     sub: 'We Partner to Win.',
-    desc: 'We co-create growth strategies with established companies and ambitious entrepreneurs. Our partnerships go beyond advisory — we bring network access, operational support, and capital to make shared success a reality.',
-    bullets: ['Joint venture structuring', 'Market access & distribution partnerships', 'Co-investment frameworks', 'Growth strategy & implementation'],
+    desc: 'We co create growth strategies with established companies and ambitious entrepreneurs. Our partnerships go beyond advisory we bring network access, operational support, and capital to make shared success a reality.',
+    bullets: ['Joint venture structuring', 'Market access & distribution partnerships', 'Co investment frameworks', 'Growth strategy & implementation'],
   },
   {
     icon: TrendingUp,
     title: 'Selective Investments',
     sub: 'We Deploy Capital Strategically.',
-    desc: 'We invest in high-potential companies at the intersection of Africa\'s structural growth drivers. Every investment decision is underpinned by deep sector knowledge, rigorous analysis, and a clear path to value creation.',
-    bullets: ['Seed to growth-stage investments', 'African market focus with global lens', 'Active portfolio support', 'Clear exit horizon planning'],
+    desc: 'We invest in high potential companies at the intersection of Africa\'s structural growth drivers. Every investment decision is underpinned by deep sector knowledge, rigorous analysis, and a clear path to value creation.',
+    bullets: ['Seed to growth stage investments', 'African market focus with global lens', 'Active portfolio support', 'Clear exit horizon planning'],
   },
   {
     icon: BarChart3,
@@ -51,7 +51,7 @@ export default function WhatWeDo() {
       <Helmet>
     <title>What We Do | SEGIS Global Investment</title>
 
-<meta name="description" content="SEGIS Global Investment delivers venture creation, strategic partnerships, selective investments, and business advisory—focused on execution, scale, and long-term value creation." />
+<meta name="description" content="SEGIS Global Investment delivers venture creation, strategic partnerships, selective investments, and business advisory focused on execution, scale, and longterm value creation." />
 
 <link rel="canonical" href="https://segisglobal.com/what-we-do" />
 
@@ -71,7 +71,7 @@ export default function WhatWeDo() {
 {/* <!-- Twitter --> */}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="What We Do | SEGIS Global Investment" />
-<meta name="twitter:description" content="From venture creation to strategic investment—focused on execution, scale, and results." />
+<meta name="twitter:description" content="From venture creation to strategic investment focused on execution, scale, and results." />
 <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
@@ -82,7 +82,7 @@ export default function WhatWeDo() {
           <span className="hero__tag fade-up fade-up--d1">Our Services</span>
           <h1 className="hero__heading fade-up fade-up--d2">What We Do Is Simple.<br />Execution Is Everything.</h1>
           <p className="hero__para fade-up fade-up--d3">
-            Four integrated capabilities — all built around one principle: delivering results, not just advice.
+            Four integrated capabilities all built around one principle: delivering results, not just advice.
           </p>
         </div>
       </section>

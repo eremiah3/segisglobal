@@ -11,7 +11,7 @@ const sectors = [
     name: 'Technology & Digital',
     tag: 'High Growth',
     desc: 'Africa\'s digital economy is accelerating. We back platforms, fintech solutions, and digital infrastructure businesses that are building the rails of tomorrow\'s economy.',
-    focus: ['Fintech & Payments', 'SaaS & Platforms', 'Digital Infrastructure', 'E-commerce Enablement'],
+    focus: ['Fintech & Payments', 'SaaS & Platforms', 'Digital Infrastructure', 'Ecommerce Enablement'],
     img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
   },
   {
@@ -25,7 +25,7 @@ const sectors = [
   {
     icon: Building2,
     name: 'Infrastructure',
-    tag: 'Long-Term Value',
+    tag: 'Long Term Value',
     desc: 'The infrastructure deficit across Africa represents one of the continent\'s greatest investment opportunities. We participate in real estate, energy, and industrial development.',
     focus: ['Commercial Real Estate', 'Affordable Housing', 'Renewable Energy', 'Industrial Parks'],
     img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80',
@@ -34,23 +34,23 @@ const sectors = [
     icon: Package,
     name: 'Logistics & Trade',
     tag: 'Structural Growth',
-    desc: 'Cross-border trade is transforming as AfCFTA opens new corridors. We invest in businesses that modernise supply chains and enable intra-African and international commerce.',
-    focus: ['Last-Mile Delivery', 'Cross-Border Trade', 'Warehousing & Fulfilment', 'Trade Finance'],
+    desc: 'Cross border trade is transforming as AfCFTA opens new corridors. We invest in businesses that modernise supply chains and enable intra-African and international commerce.',
+    focus: ['Last Mile Delivery', 'Cross Border Trade', 'Warehousing & Fulfilment', 'Trade Finance'],
     img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80',
   },
   {
     icon: Music,
     name: 'Creative Economy',
     tag: 'Global Moment',
-    desc: 'African creative talent is commanding global audiences. We invest in media, entertainment, and creator-driven businesses that leverage Africa\'s cultural capital at scale.',
+    desc: 'African creative talent is commanding global audiences. We invest in media, entertainment, and creator driven businesses that leverage Africa\'s cultural capital at scale.',
     focus: ['Music & Entertainment', 'Media & Publishing', 'Creator Platforms', 'Sports & Events'],
     img: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80',
   },
   {
     icon: Leaf,
     name: 'Impact Ventures',
-    tag: 'Mission-Aligned',
-    desc: 'Businesses with strong social and environmental impact are among our most exciting opportunities. We believe commercial returns and positive impact are not in conflict — they are complementary.',
+    tag: 'Mission Aligned',
+    desc: 'Businesses with strong social and environmental impact are among our most exciting opportunities. We believe commercial returns and positive impact are not in conflict they are complementary.',
     focus: ['AgriTech & Food Security', 'EdTech & Skills', 'HealthTech & Access', 'Clean Energy'],
     img: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&q=80',
   },
@@ -70,7 +70,7 @@ export default function FocusAreas() {
       <Helmet>
         <title>Our Focus Areas | SEGIS Global Investment</title>
 
-        <meta name="description" content="SEGIS Global Investment focuses on six high-conviction sectors including technology, consumer brands, infrastructure, logistics, the creative economy, and impact ventures—driving growth across Africa." />
+        <meta name="description" content="SEGIS Global Investment focuses on six high conviction sectors including technology, consumer brands, infrastructure, logistics, the creative economy, and impact ventures—driving growth across Africa." />
 
         <link rel="canonical" href="https://segisglobal.com/focus-areas" />
 
@@ -79,7 +79,7 @@ export default function FocusAreas() {
         <meta property="og:site_name" content="SEGIS Global Investment" />
         <meta property="og:url" content="https://segisglobal.com/focus-areas" />
         <meta property="og:title" content="Where We Invest | SEGIS Global Investment" />
-        <meta property="og:description" content="We invest across six high-growth sectors—from technology and consumer brands to infrastructure and the creative economy—backing Africa’s next generation of ventures." />
+        <meta property="og:description" content="We invest across six high growth sectors—from technology and consumer brands to infrastructure and the creative economy—backing Africa’s next generation of ventures." />
 
         {/* <!-- FIXED: absolute URL --> */}
         <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
@@ -90,7 +90,7 @@ export default function FocusAreas() {
         {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Where We Invest | SEGIS Global Investment" />
-        <meta name="twitter:description" content="Backing high-growth sectors across Africa—from technology and logistics to infrastructure and creative industries." />
+        <meta name="twitter:description" content="Backing high growth sectors across Africa—from technology and logistics to infrastructure and creative industries." />
         <meta name="twitter:image" content="https://segisglobal.com/OGimage.png" />
       </Helmet>
       {/* HERO */}
@@ -101,7 +101,7 @@ export default function FocusAreas() {
           <span className="hero__tag fade-up fade-up--d1">Sectors</span>
           <h1 className="hero__heading fade-up fade-up--d2">Focused on What Works.<br />Positioned for What's Next.</h1>
           <p className="hero__para fade-up fade-up--d3">
-            Six sectors. Deep expertise. A conviction-driven approach to building and backing businesses across Africa.
+            Six sectors. Deep expertise. A conviction driven approach to building and backing businesses across Africa.
           </p>
         </div>
       </section>

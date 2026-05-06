@@ -14,7 +14,7 @@ const navLinks = [
   { name: 'Contact', path: '/contact' },
 ]
 
-const rcNumber = 'RC 1931852'
+// const rcNumber = 'RC 1931852'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="navbar__brand-text">
               <span className="logo-text">SEGIS</span>
               <span className="logo-sub">Global Investment</span>
-              <span className="logo-rc">{rcNumber}</span>
+              {/* <span className="logo-rc">{rcNumber}</span> */}
             </div>
           </Link>
 
@@ -75,7 +75,7 @@ export default function Navbar() {
               <div>
                 <div className="logo-text">SEGIS</div>
                 <div className="logo-sub">Global Investment</div>
-                <div className="logo-rc">{rcNumber}</div>
+                {/* <div className="logo-rc">{rcNumber}</div> */}
               </div>
               <button className="mobile-menu__close" onClick={() => setOpen(false)}>
                 <X size={24} />

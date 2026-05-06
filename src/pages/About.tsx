@@ -27,7 +27,7 @@ const milestones = [
   {
     year: "2015",
     title: "Founded",
-    desc: "SEGIS established in Lagos with a mandate to identify and execute high-value opportunities across African markets.",
+    desc: "SEGIS established in Lagos with a mandate to identify and execute high value opportunities across African markets.",
   },
   {
     year: "2017",
@@ -47,7 +47,7 @@ const milestones = [
   {
     year: "2023",
     title: "Ventures Division Launch",
-    desc: "Launched dedicated venture-building arm, allowing us to own and operate high-potential businesses from inception.",
+    desc: "Launched dedicated venture-building arm, allowing us to own and operate high potential businesses from inception.",
   },
   {
     year: "2025",
@@ -62,7 +62,7 @@ export default function About() {
     <PageTransition>
       <Helmet>
         <title>About SEGIS Global Investment | Our Story, Vision & Investment Approach</title>
-        <meta name="description" content="Founded in 2015, SEGIS Global Investment builds, funds, and scales high-impact ventures across Africa. Discover our story, expertise, and long-term commitment to transformative growth." />
+        <meta name="description" content="Founded in 2015, SEGIS Global Investment builds, funds, and scales high impact ventures across Africa. Discover our story, expertise, and long-term commitment to transformative growth." />
         <link rel="canonical" href="https://segisglobal.com/about" />
 
 
@@ -118,8 +118,8 @@ export default function About() {
               <p style={{ marginBottom: "1.2rem" }}>
                 SEGIS Global Investment was founded on a simple thesis: Africa's
                 most significant commercial opportunities are not found on
-                spreadsheets — they are discovered through deep market
-                relationships, relentless on-the-ground work, and a willingness
+                spreadsheets they are discovered through deep market
+                relationships, relentless on the ground work, and a willingness
                 to execute when others hesitate.
               </p>
               <p style={{ marginBottom: "1.2rem" }}>
@@ -129,9 +129,9 @@ export default function About() {
               </p>
               <p>
                 Today, SEGIS operates across 12+ markets with a growing
-                portfolio of ventures, partnerships, and investments — each one
+                portfolio of ventures, partnerships, and investments each one
                 built on the same foundation of conviction, discipline, and
-                long-term thinking.
+                long term thinking.
               </p>
             </div>
             <div className="reveal">
@@ -158,12 +158,12 @@ export default function About() {
               {
                 label: "Our Mission",
                 icon: "◈",
-                text: "To identify, create, and execute high-value commercial opportunities across Africa and international markets — building businesses that generate lasting economic value and meaningful impact.",
+                text: "To identify, create, and execute high value commercial opportunities across Africa and international markets building businesses that generate lasting economic value and meaningful impact.",
               },
               {
                 label: "Our Vision",
                 icon: "◉",
-                text: "To be the most trusted execution-led investment and ventures company in Africa — known for building businesses that endure, partnerships that last, and a standard of excellence that sets the benchmark.",
+                text: "To be the most trusted execution led investment and ventures company in Africa known for building businesses that endure, partnerships that last, and a standard of excellence that sets the benchmark.",
               },
             ].map((item) => (
               <div

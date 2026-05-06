@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="logo-text">SEGIS</span>
               <span className="logo-sub">Global Investment</span>
               <p>
-                A trading and investment company creating and executing high-value
+                A trading and investment company creating and executing high value
                 business opportunities across Africa and beyond.
               </p>
               <div className="footer__socials">

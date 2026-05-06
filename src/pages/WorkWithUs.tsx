@@ -10,7 +10,7 @@ const tracks = [
     icon: Rocket,
     title: 'For Founders',
     tag: 'Early to Growth Stage',
-    desc: 'You\'ve validated your idea and you\'re ready to scale. You need more than capital — you need execution partners who understand your market and can help you navigate growth.',
+    desc: 'You\'ve validated your idea and you\'re ready to scale. You need more than capital you need execution partners who understand your market and can help you navigate growth.',
     points: ['Seed and growth-stage investment', 'Operational mentorship and support', 'Network access and market introductions', 'Strategic co-building on core functions'],
     cta: 'Apply as a Founder',
   },
@@ -58,7 +58,7 @@ export default function WorkWithUs() {
       <Helmet>
         <title>Work With Us | SEGIS Global Investment</title>
 
-        <meta name="description" content="Partner with SEGIS Global Investment. Whether you're a founder, an established business, or a strategic collaborator—we provide capital, execution, and networks to help you scale." />
+        <meta name="description" content="Partner with SEGIS Global Investment. Whether you're a founder, an established business, or a strategic collaborator we provide capital, execution, and networks to help you scale." />
 
         <link rel="canonical" href="https://segisglobal.com/work-with-us" />
 
@@ -67,7 +67,7 @@ export default function WorkWithUs() {
         <meta property="og:site_name" content="SEGIS Global Investment" />
         <meta property="og:url" content="https://segisglobal.com/work-with-us" />
         <meta property="og:title" content="Work With Us | SEGIS Global Investment" />
-        <meta property="og:description" content="Three structured paths for founders, businesses, and partners. We bring more than capital—we bring execution, strategy, and growth." />
+        <meta property="og:description" content="Three structured paths for founders, businesses, and partners. We bring more than capital we bring execution, strategy, and growth." />
 
         <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
         <meta property="og:image:secure_url" content="https://segisglobal.com/OGimage.png" />
@@ -88,7 +88,7 @@ export default function WorkWithUs() {
           <span className="hero__tag fade-up fade-up--d1">Partnerships</span>
           <h1 className="hero__heading fade-up fade-up--d2">Let's Build Something<br />That Works.</h1>
           <p className="hero__para fade-up fade-up--d3">
-            Whether you're a founder, an established business, or a strategic collaborator — there's a way for us to create value together.
+            Whether you're a founder, an established business, or a strategic collaborator  there's a way for us to create value together.
           </p>
           <div className="hero__cta fade-up fade-up--d4">
             <Link to="/contact" className="btn btn-primary">Start a Conversation <ArrowRight size={16} /></Link>

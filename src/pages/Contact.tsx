@@ -63,7 +63,7 @@ export default function Contact() {
         <meta property="og:site_name" content="SEGIS Global Investment" />
         <meta property="og:url" content="https://segisglobal.com/contact" />
         <meta property="og:title" content="Contact SEGIS Global Investment" />
-        <meta property="og:description" content="Let’s connect. Partner with SEGIS to build and scale high-impact ventures across Africa." />
+        <meta property="og:description" content="Let’s connect. Partner with SEGIS to build and scale high impact ventures across Africa." />
 
         {/* <!-- FIXED: absolute image URL --> */}
         <meta property="og:image" content="https://segisglobal.com/OGimage.png" />
@@ -85,7 +85,7 @@ export default function Contact() {
           <span className="hero__tag fade-up fade-up--d1">Get in Touch</span>
           <h1 className="hero__heading fade-up fade-up--d2">Start the Conversation.</h1>
           <p className="hero__para fade-up fade-up--d3">
-            Whether you have a business opportunity, a partnership proposal, or simply want to learn more — we want to hear from you.
+            Whether you have a business opportunity, a partnership proposal, or simply want to learn more we want to hear from you.
           </p>
         </div>
       </section>
