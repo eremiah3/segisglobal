@@ -18,9 +18,9 @@ export default function Footer() {
               </p>
               <div className="footer__socials">
                 {/* <a href="#" className="footer__social">Li</a> */}
-                <a href="#" className="footer__social">Tw</a>
-                <a href="#" className="footer__social">Ig</a>
-                <a href="#" className="footer__social">Fb</a>
+                <a href="https://x.com/segisglobal" className="footer__social">X</a>
+                <a href="https://www.instagram.com/segisglobal?igsh=emlhZzBnMzZmNGlz" className="footer__social">Ig</a>
+                <a href="www.linkedin.com/in/segi-s-global-investment-7a4179409" className="footer__social">Li</a>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
               <div className="footer__contact">
                 <div className="footer__contact-item">
                   <MapPin size={14} className="icon" />
-                  <span>Lagos, Nigeria &amp; Global Offices</span>
+                  <span>96 Bode Thomas road, Surulere Lagos State, Nigeria.</span>
                 </div>
                 <div className="footer__contact-item">
                   <Mail size={14} className="icon" />
@@ -59,7 +59,7 @@ export default function Footer() {
                 </div>
                 <div className="footer__contact-item">
                   <Phone size={14} className="icon" />
-                  <span>+234 913 261 7863</span>
+                  <span>+234 901 944 4372</span>
                 </div>
               </div>
             </div>

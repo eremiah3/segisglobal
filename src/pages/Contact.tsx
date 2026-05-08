@@ -105,9 +105,10 @@ export default function Contact() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '2.5rem' }}>
                 {[
-                  { icon: MapPin, label: 'Location', val: 'Nigeria (HQ)' },
+                  { icon: MapPin, label: 'Location', val: '96 Bode Thomas road, Surulere Lagos State, Nigeria.' },
                   { icon: Mail, label: 'Email', val: 'info@segisglobal.com\nsegis.global.invt@gmail.com' },
-                  { icon: Phone, label: 'Phone', val: '+234 913 261 7863' },
+                  { icon: Phone, label: 'Phone', val: '+234 901 944 4372' },
+                  { icon: Phone, label: 'Phone', val: '+44 7534 644786' },
                   // { icon: Clock, label: 'Business Hours', val: 'Monday – Friday\n8:00 AM – 6:00 PM WAT' },
                 ].map(item => (
                   <div key={item.label} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
