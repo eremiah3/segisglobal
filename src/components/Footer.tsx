@@ -20,7 +20,7 @@ export default function Footer() {
                 {/* <a href="#" className="footer__social">Li</a> */}
                 <a href="https://x.com/segisglobal" className="footer__social">X</a>
                 <a href="https://www.instagram.com/segisglobal?igsh=emlhZzBnMzZmNGlz" className="footer__social">Ig</a>
-                <a href="www.linkedin.com/in/segi-s-global-investment-7a4179409" className="footer__social">Li</a>
+                <a href="https://www.linkedin.com/in/segi-s-global-investment-7a4179409?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="footer__social">Li</a>
               </div>
             </div>
 
