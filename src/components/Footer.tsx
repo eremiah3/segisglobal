@@ -59,7 +59,7 @@ export default function Footer() {
                 </div>
                 <div className="footer__contact-item">
                   <Phone size={14} className="icon" />
-                  <span>+234 901 944 4372</span>
+                  <span>+234 901 944 4372 <br /> +44 7534 644786</span>
                 </div>
               </div>
             </div>
